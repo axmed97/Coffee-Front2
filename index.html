@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coretta - Coffee Cafe</title>
+    <link rel="icon" href="image/cropped-favicon-32x32.png">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Plugins Link -->
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/css/slick.css">
+    <link rel="stylesheet" href="vendor/css/slick-theme.css">
+    <link rel="stylesheet" href="vendor/css/aos.css">
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.css">
+    <!-- Css Link -->
+    <link rel="stylesheet" href="css/index/style.css">
+</head>
+<body>
+    <div id="preloader" class="preloader">
+        <img src="image/logo-1.gif" alt="">
+    </div>
+
+    <div class="full-screen-bg"></div>
+
+    <div class="back-to-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="top-btn">
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Start -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <div class="navigation-menu d-flex justify-content-between align-items-center">
+                        <div class="nav-logo">
+                            <a href="index.html">
+                                <img src="image/logo-light.png" alt="">
+                            </a>
+                        </div>
+                        <div class="dark-nav-logo d-none    ">
+                            <a href="index.html">
+                                <img src="image/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="nav-menu d-flex align-items-center">
+                            <ul class="d-flex">
+                                <li class="nav-menu-li"><a class="nav-menu-link active-nav-link" href="index.html">home</a></li>
+                                <li class="nav-menu-li">
+                                    <a class="nav-menu-link" href="#">about</a>
+                                    <div class="hover-menu">
+                                        <ul>
+                                            <li><a href="aboutUs.html">about us</a></li>
+                                            <li><a href="contactUs.html">contact us</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-menu-li"><a class="nav-menu-link" href="menu.html">menu</a></li>
+                                <li class="nav-menu-li">
+                                    <a class="nav-menu-link" href="#">shop</a>
+                                    <div class="hover-menu">
+                                        <ul>
+                                            <li><a href="product.html">products</a></li>
+                                            <li><a href="product.html">my account</a></li>
+                                            <li><a href="cart.html">cart</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="nav-icon d-flex align-items-center">
+                                <div>
+                                    <a href="cart.html">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <sup>0</sup>
+                                    </a>
+                                </div>
+                                <div class="search-btn">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div>
+                                    <a href="login.html">
+                                        <i class="far fa-user"></i>
+                                    </a>
+                                </div>
+                                <div class="side-btn pr-0">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="responsive-bar d-none">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="responsive-menu d-none">
+                            <ul class="resp-ul">
+                                <li class="resp-li"><a class="active-responsive-link d-flex justify-content-between align-items-center" href="index.html">home<span></span></a></li>
+                                <li class="resp-li">
+                                    <a class="d-flex justify-content-between align-items-center" href="#">about<i class="fas fa-chevron-right"></i></a>
+                                    <div class="responsive-inside-menu">
+                                        <ul>
+                                            <li><a class="d-flex justify-content-between align-items-center" href="aboutUs.html">about us<span></span></a></li>
+                                            <li><a class="border-0 d-flex justify-content-between align-items-center" href="contactUs.html">contact us<span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="resp-li"><a class="d-flex justify-content-between align-items-center" href="menu.html">menu<span></span></a></li>
+                                <li class="resp-li">
+                                    <a class="resp-a border-0 d-flex justify-content-between align-items-center" href="#">shop<i class="fas fa-chevron-right"></i></a>
+                                    <div class="responsive-inside-menu">
+                                        <ul>
+                                            <li><a class="d-flex justify-content-between align-items-center" href="product.html">products<span></span></a></li>
+                                            <li><a class="d-flex justify-content-between align-items-center" href="login.html">my account<span></span></a></li>
+                                            <li><a class="border-0 d-flex justify-content-between align-items-center" href="cart">cart<span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form method="get">
+                        <div class="search-area d-flex align-items-center">
+                            <input type="text" placeholder="search">
+                            <i class="search-close-btn fas fa-times"></i>
+                        </div>
+                    </form>
+                    <div class="side">
+                        <div class="side-close-btn">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="side-logo d-flex justify-content-center">
+                            <a href="index.html">
+                                <img src="image/logo-light.png" alt="">
+                            </a>
+                        </div>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consecteturadip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore sit.</p>
+                        <h6 class="text-center"><a href="mailto:example@email.com">example@email.com</a></h6>
+                        <h6 class="text-center"><a href="tel:+369-7482-36-96">+369-7482-36-96</a></h6>
+                        <div class="side-icon d-flex justify-content-center align-items-center">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="pr-0" href="#"><i class="fab fa-tumblr"></i></a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Slider Section Start -->
+    <section class="slider-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
+                    <ul class="slider">
+                        <li class="active-slide slide" style="background-image: url(./image/home-3-slider-image-1.jpg);">
+                            <div class="slider-text">
+                                <div class="slider-logo">
+                                    <img src="image/h1-slider-img-1.png" alt="">
+                                </div>
+                                <h1>the coffee heaven</h1>
+                                <div class="slider-hr">
+                                    <img src="image/slider-separator-img.png" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua atin script and its variants, and.</p>
+                                <div class="slider-link">
+                                    <a href="product.html">shop here</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slide" style="background-image: url(./image/home-3-slider-image-2.jpg);">
+                            <div class="slider-text">
+                                <div class="slider-logo">
+                                    <img src="image/h1-slider-img-1.png" alt="">
+                                </div>
+                                <h1>the coffee factory</h1>
+                                <div class="slider-hr">
+                                    <img src="image/slider-separator-img.png" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua atin script and its variants, and.</p>
+                                <div class="slider-link">
+                                    <a href="product.html">shop here</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slide" style="background-image: url(./image/home-3-slider-image-3-new.jpg);">
+                            <div class="slider-text">
+                                <div class="slider-logo">
+                                    <img src="image/h1-slider-img-1.png" alt="">
+                                </div>
+                                <h1>the coffee masters</h1>
+                                <div class="slider-hr">
+                                    <img src="image/slider-separator-img.png" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua atin script and its variants, and.</p>
+                                <div class="slider-link">
+                                    <a href="product.html">shop here</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider Section End -->
+    <div style="clear: both;"></div>
+    <!-- Svg Section Start -->
+    <section class="svg-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xl-4">
+                    <div class="svg d-flex">
+                        <div class="svg-text">
+                            <h6 class="text-right">the perfect coffee</h6>
+                            <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                        <div class="svg-icon ml-4">
+                            <img src="image/h3-custom-icon-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="svg d-flex my-4">
+                        <div class="svg-text">
+                            <h6 class="text-right">the moka pot</h6>
+                            <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                        <div class="svg-icon ml-4">
+                            <img src="image/h3-custom-icon-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="svg d-flex">
+                        <div class="svg-text">
+                            <h6 class="text-right">supreme beans</h6>
+                            <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                        <div class="svg-icon ml-4">
+                            <img src="image/h3-custom-icon-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <div class="svg-img">
+                        <img src="image/h3-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <div class="svg d-flex">
+                        <div class="svg-icon mr-4">
+                            <img src="image/h3-custom-icon-2.png" alt="">
+                        </div>
+                        <div class="svg-text">
+                            <h6 class="text-left">the coffee machine</h6>
+                            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                    <div class="svg d-flex my-4">
+                        <div class="svg-icon mr-4">
+                            <img src="image/h3-custom-icon-2.png" alt="">
+                        </div>
+                        <div class="svg-text">
+                            <h6 class="text-left">french press</h6>
+                            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                    <div class="svg d-flex">
+                        <div class="svg-icon mr-4">
+                            <img src="image/h3-custom-icon-2.png" alt="">
+                        </div>
+                        <div class="svg-text">
+                            <h6 class="text-left">coffee to go</h6>
+                            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="responsive-svg-img d-none">
+                        <img src="image/h3-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="responsive-svg mb-4 d-none">
+                        <div class="responsive-svg-icon mr-4">
+                            <img src="image/h3-custom-icon-1.png" alt="">
+                        </div>
+                        <div class="responsive-svg-text">
+                            <h6>the perfect cup</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                    <div class="responsive-svg mb-4 d-none">
+                        <div class="responsive-svg-icon mr-4">
+                            <img src="image/h3-custom-icon-3.png" alt="">
+                        </div>
+                        <div class="responsive-svg-text">
+                            <h6>the moka pot</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                    <div class="responsive-svg mb-4 d-none">
+                        <div class="responsive-svg-icon mr-4">
+                            <img src="image/h3-custom-icon-5.png" alt="">
+                        </div>
+                        <div class="responsive-svg-text">
+                            <h6>supreme beans</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                    <div class="responsive-svg mb-4 d-none">
+                        <div class="responsive-svg-icon mr-4">
+                            <img src="image/h3-custom-icon-2.png" alt="">
+                        </div>
+                        <div class="responsive-svg-text">
+                            <h6>the coffee machine</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                    <div class="responsive-svg mb-4 d-none">
+                        <div class="responsive-svg-icon mr-4">
+                            <img src="image/h3-custom-icon-4.png" alt="">
+                        </div>
+                        <div class="responsive-svg-text">
+                            <h6>french press</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                    <div class="responsive-svg d-none">
+                        <div class="responsive-svg-icon mr-4">
+                            <img src="image/h3-custom-icon-2.png" alt="">
+                        </div>
+                        <div class="responsive-svg-text">
+                            <h6>coffee to go</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid iduntus ut</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Svg Section End -->
+    <div style="clear: both;"></div>
+    <!-- Paralel Section Start -->
+    <section class="paralel-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="paralel-text">
+                        <h1>COFFEE PRODUCTS</h1>
+                        <div class="paralel-hr">
+                            <img src="image/slider-separator-img.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <div class="paralel-link">
+                            <a href="product.html">view more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Paralel Section End -->
+    <div style="clear: both;"></div>
+    <!-- Menu Section Start -->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="menu-title">
+                        <h1>EXPLORE OUR MENU</h1>
+                        <div class="title-hr">
+                            <img src="image/title-separator.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-1.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>cafe latte</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$3.45</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-2.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>ice coffee</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$2.20</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-3.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>mocha</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$4.80</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-4.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>espresso</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$2.10</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-5-1.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>americano</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$3.45</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-1.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>cafe latte</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$3.45</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-2.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>ice coffee</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$2.20</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-3.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>mocha</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$4.80</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-4.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>espresso</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$2.10</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <div class="menu-img">
+                            <img src="image/h2-custom-icon-5-1.png" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <div class="menu-top d-flex align-items-center justify-content-between">
+                                <h5>americano</h5>
+                                <div class="menu-hr"></div>
+                                <h6>$3.45</h6>
+                            </div>
+                            <div class="menu-bottom">
+                                <p>Fresh Brewed coffee and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="menu-link">
+                        <a href="menu.html">view menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section End -->
+    <div style="clear: both;"></div>
+    <!-- Opening Hours Section Start -->
+    <section class="open-section">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+                    <div class="open-logo d-flex justify-content-center">
+                        <img src="image/h3-img-6.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+                    <div class="open-text">
+                        <h3>OPENING HOURS &<br>RESERVATIONS</h3>
+                        <div class="open d-flex justify-content-around">
+                            <div class="open-left">
+                                <h6>Monday – Friday // 10:00 – 12:00</h6>
+                                <h6>Saturday // 10:00 – 01:00</h6>
+                                <h6>Sunday // CLOSED</h6>
+                            </div>
+                            <div class="open-right">
+                                <h5>Reservation numbers:</h5>
+                                <h6><a href="tel:+458-874-36-21">+458-874-36-21</a></h6>
+                                <h6><a href="tel:+458-471-56-36">+458-471-56-36</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Opening Hours Section End -->
+    <div style="clear: both;"></div>
+    <!-- Brand Section Start -->
+    <section class="brand-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="brand-slider">
+                        <div class="d-flex justify-content-center">
+                            <img src="image/clients-img-1-1.png" alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="image/clients-img-2.png" alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="image/clients-img-3.png" alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="image/clients-img-4.png" alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="image/clients-img-5.png" alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="image/clients-img-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand Section End -->
+    <div style="clear: both;"></div>
+    <!-- Footer Top Start -->
+    <footer class="footer-top-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="footer-top-logo">
+                        <a href="index.html">
+                            <img src="image/logo-light.png" alt="">
+                        </a>
+                    </div>
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud exercitation ullamco laboris.”</p>
+                    <h5>STORES</h5>
+                    <div class="footer-top-link">
+                        <h6><a href="#">Dunsmuir Ave, Los Angeles, CA 90036, USA</a></h6>
+                        <h6><a href="#">Atkins Ave, Brooklyn, NY 11208, USA</a></h6>
+                    </div>
+                    <h5>NEWS AS FRESH AS OUR COFFEE</h5>
+                    <form method="post">
+                        <div class="footer-top-input">
+                            <input type="text" placeholder="Your E-mail Adress...">
+                            <a href="#">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Top End -->
+    <div style="clear: both;"></div>
+    <!-- Footer Bottom Start -->
+    <footer class="footer-bottom-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="developer d-flex justify-content-center">
+                        <p>© Copyright <a href="#">Axmed Dev</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="footer-nav">
+                        <ul class="d-flex justify-content-center align-items-center">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="aboutUs.html">about</a></li>
+                            <li><a href="menu.html">menu</a></li>
+                            <li><a href="product.html">shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="footer-icon d-flex justify-content-center align-items-center">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tumblr"></i></a>
+                        <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Bottom End -->
+
+    <!-- Plugins Scripts -->
+    <script src="vendor/js/jquery-3.5.1.js"></script>
+    <script src="vendor/js/slick.js"></script>
+    <script src="vendor/js/aos.js"></script>
+    <script src="vendor/js/jquery.fancybox.js"></script>
+    <!-- Javascript Script -->
+    <script src="js/index/main.js"></script>
+</body>
+</html>
