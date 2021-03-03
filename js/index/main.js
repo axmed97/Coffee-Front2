@@ -60,7 +60,7 @@ $(document).ready(function(){
     $('.responsive-bar').click(function(){
         $('.responsive-menu').toggleClass('active-responsice-menu');
     })
-
+// Slider
     var next = document.getElementsByClassName('next-btn ')[0];
     var prev = document.getElementsByClassName('prev-btn ')[0];
     var slide =[...document.querySelectorAll('.slide')];
@@ -89,6 +89,7 @@ $(document).ready(function(){
     setInterval(function(){
         NextSlide();
     },8500);
+// Slider
 
     $('.brand-slider').slick({
         infinite: true,
